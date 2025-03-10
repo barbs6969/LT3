@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Top 10 Favorite Movies</title>
+    <style>
+        body {
+            background-image: url('movietheatre.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 1000px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .movie {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 300px;
+        }
+        .movie img {
+            width: 100%;
+            max-width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .movie h2 {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .movie p {
+            font-size: 14px;
+            flex-grow: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>s
+<body>
+    <section class="container">
+        <h1>My Top 10 Favorite Movies</h1>
+        <div class="grid">
+            <div class="movie">
+                <h2>Top 1</h2>
+                <h3>Harry Potter and the Goblet of Fire</h3>
+                <img src="harrypotter.jpg" alt="Harry Potter">
+                <p>In Harry Potter and the Goblet of Fire, Harry competes in the perilous Triwizard Tournament, only to uncover a deadly plot that leads to Lord Voldemort’s return.</p>
+            </div>
+            <div class="movie">
+                <h2>Top 2</h2>
+                <h3>One Piece Red</h3>
+                <img src="onepiecefilmred.jpg" alt="One Piece Red">
+                <p>In One Piece Film: Red, Luffy and the Straw Hat Pirates attend a concert by Uta, Shanks’ daughter, only to uncover her plan to trap the world in a dream, leading to a battle that reveals her tragic past.</p>
+            </div>
+            <div class="movie">
+                <h2>Top 3</h2>
+                <h3>The Greatest Showman</h3>
+                <img src="thegreatestshowman.jpg" alt="The Greatest Showman">
+                <p>The Greatest Showman follows P.T. Barnum's rise from poverty to fame as he creates a dazzling circus, overcoming struggles and celebrating dreams and diversity.</p>
+            </div>
+            <div class="movie">
+                <h2>Top 4</h2>
+                <h3>Transformers the Last Knight</h3>
+                <img src="transformersthelastknight.jpg" alt="Transformers the Last Knight">
+                <p>Transformers: The Last Knight follows Cade Yeager, Bumblebee, and an unlikely team as they uncover the hidden history of Transformers on Earth and race to stop a looming apocalypse, while Optimus Prime struggles with his corrupted allegiance.</p>
+            </div>
+            <div class="movie">
+                <h2>Top 5</h2>
+                <h3>Avengers Infinity War</h3>
+                <img src="avengersinfinitywar.jpg" alt="Avengers Infinity War">
+                <p>Avengers: Infinity War follows the Avengers and their allies as they battle to stop Thanos from collecting the Infinity Stones and wiping out half of all life, leading to a devastating defeat.</p>
+            </div>
+            <div class="movie">
+                <h2>Top 6</h2>
+                <h3>Avengers Endgame</h3>
+                <img src="avengersendgame.jpg" alt="Avengers Endgame">
+                <p>Avengers: Endgame sees the surviving heroes embark on a time-travel mission to retrieve the Infinity Stones, undo Thanos’ snap, and face him in an epic final battle to restore the universe.</p>
+            </div>
+            <div class="movie">
+                <h2>Top 7</h2>
+                <h3>Pirates of the Caribbean: Dead Men Tell No Tales</h3>
+                <img src="PiratesoftheCaribbean,DeadMenTellNoTales.jpg" alt="Pirates of the Caribbean: Dead Men Tell No Tales">
+                <p>Pirates of the Caribbean: Dead Men Tell No Tales follows Captain Jack Sparrow as he teams up with Henry Turner and Carina Smyth to find the legendary Trident of Poseidon while being hunted by the vengeful ghost Captain Salazar.</p>
+            </div>
+            <div class="movie">
+                <h2>Top 8</h2>
+                <h3>Deadpool and Wolverine</h3>
+                <img src="deadpoolandwolverine.jpg" alt="Deadpool and Wolverine">
+                <p>Deadpool & Wolverine follows Deadpool as he joins the TVA to save the multiverse, teaming up with a reluctant Wolverine for a chaotic mission.</p>
+            </div>
+            <div class="movie">
+                <h2>Top 9</h2>
+                <h3>Ice Age: Dawn of the Dinosaurs</h3>
+                <img src="iceagedawnofthedinosaur.jpg" alt="Ice Age: Dawn of the Dinosaurs">
+                <p>Ice Age: Dawn of the Dinosaurs follows Manny, Sid, Diego, and the gang as they venture into a hidden prehistoric world to rescue Sid, who has been taken by a mother T-Rex after stealing her eggs.</p>
+            </div>
+            <div class="movie">
+                <h2>Top 10</h2>
+                <h3>Coco</h3>
+                <img src="coco.jpeg" alt="Coco">
+                <p>Coco follows Miguel, a boy who dreams of music, as he enters the Land of the Dead and uncovers his family's history and true legacy.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
