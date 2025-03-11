@@ -3,66 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My Top 10 Favorite Movies</title>
+    <title>My Top 10 Favorite Movies</title>
     <style>
         body {
             background-image: url('movietheatre.jpg');
             background-size: cover;
+            background-attachment: fixed;
             font-family: Arial, sans-serif;
-            color: white;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
-            overflow: hidden;
+            padding: 0;
+            color: black;
         }
+
         .container {
-            max-width: 1000px;
-            background: rgba(0, 0, 0, 0.8);
+            max-width: 1200px;
+            margin: 40px auto;
+            background: white;
             padding: 30px;
             border-radius: 10px;
-            overflow-y: auto;
-            max-height: 90vh;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: black;
+        }
+
         .grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 20px;
-            justify-content: center;
-            align-items: center;
         }
+
         .movie {
-            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid red;
             padding: 10px;
-            border-radius: 10px;
-            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            color: black;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
             height: 300px;
+            text-align: center;
         }
-        .movie img {
-            width: 100%;
-            max-width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
+
         .movie h2 {
             font-size: 16px;
             margin: 5px 0;
+            font-weight: bold;
         }
-        .movie p {
+
+        .movie h3 {
             font-size: 14px;
-            flex-grow: 1;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            margin: 5px 0;
+        }
+
+        .movie img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .movie p {
+            font-size: 12px;
+            text-align: justify;
         }
     </style>
-</head>s
+</head>
 <body>
     <section class="container">
         <h1>My Top 10 Favorite Movies</h1>
@@ -106,7 +119,7 @@
             <div class="movie">
                 <h2>Top 7</h2>
                 <h3>Pirates of the Caribbean: Dead Men Tell No Tales</h3>
-                <img src="PiratesoftheCaribbean,DeadMenTellNoTales.jpg" alt="Pirates of the Caribbean: Dead Men Tell No Tales">
+                <img src="PiratesoftheCaribbean,DeadMenTellNoTales.jpg" alt="Pirates of the Caribbean">
                 <p>Pirates of the Caribbean: Dead Men Tell No Tales follows Captain Jack Sparrow as he teams up with Henry Turner and Carina Smyth to find the legendary Trident of Poseidon while being hunted by the vengeful ghost Captain Salazar.</p>
             </div>
             <div class="movie">
@@ -118,7 +131,7 @@
             <div class="movie">
                 <h2>Top 9</h2>
                 <h3>Ice Age: Dawn of the Dinosaurs</h3>
-                <img src="iceagedawnofthedinosaur.jpg" alt="Ice Age: Dawn of the Dinosaurs">
+                <img src="iceagedawnofthedinosaur.jpg" alt="Ice Age">
                 <p>Ice Age: Dawn of the Dinosaurs follows Manny, Sid, Diego, and the gang as they venture into a hidden prehistoric world to rescue Sid, who has been taken by a mother T-Rex after stealing her eggs.</p>
             </div>
             <div class="movie">
@@ -128,6 +141,6 @@
                 <p>Coco follows Miguel, a boy who dreams of music, as he enters the Land of the Dead and uncovers his family's history and true legacy.</p>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
